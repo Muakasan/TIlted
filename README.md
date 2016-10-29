@@ -5,7 +5,7 @@ Press the Left and Right arrows keys to move.
 This project was built for Hacktoberfest 2016.
 The stack is basic JavaScript HTML and CSS.
 
-# License (MIT)
+## License (MIT)
 
 Copyright (c) 2016 Muakasan
 
