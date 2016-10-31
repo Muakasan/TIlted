@@ -3,16 +3,20 @@
         <title>Tilted</title>
     </head>
 
-    <body onload = "draw_trump();">
+    <body>
+
       <h1>Tilted</h1>
       <h4>Can you Balance the Trump Toupee?</h4>
+
+      <div id = "canvases_id" style = "position:relative; width:400px; height:300px">
+          <canvas id = "background_canvas" style="z-index: 1; position:absolute; left:0px; top:0px;" width="1500" height="1000"></canvas>
+          <canvas id = "canvas" style="z-index: 1; position:absolute; left:0px; top:0px;" width="1500" height="1000"></canvas>
+      </div>
+
       <script type="text/javascript" src="trump.js"></script>
 
 
-      <div id = "canvas_id" style = "position:relative; width:400px; height:300px">
-          <canvas id = "canvas" style="z-index: 1; position:absolute; left:0px; top:0px;" width="1000" height="1000"></canvas>
-      </div>
       <script type="text/javascript" src="keyboard.js"></script>
       <script type="text/javascript" src="score.js"></script>  
-    </body>
+   </body>
 </html>
